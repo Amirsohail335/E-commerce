@@ -5,7 +5,8 @@ const cors = require("cors");
 
 mongoose
   .connect(
-    "mongodb+srv://amirsohail0212:Striker@335@ecom-cluster.6fsi7.mongodb.net/"
+    // "mongodb+srv://amirsohail0212:Striker@335@ecom-cluster.6fsi7.mongodb.net/"
+    "mongodb+srv://Striker335:Striker@335@ecom-cluster.6fsi7.mongodb.net/"
   )
   .then(() => console.log("Mongo DB connect"))
   .catch((error) => console.log(error));
