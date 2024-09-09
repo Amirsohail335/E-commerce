@@ -6,7 +6,7 @@ const cors = require("cors");
 
 mongoose
   .connect(
-    // "mongodb+srv://amirsohail0212:Striker@335@ecom-cluster.6fsi7.mongodb.net/"
+    
     // "mongodb+srv://Striker335:Striker@335@ecom-cluster.6fsi7.mongodb.net/"
     'mongodb+srv://e-commerce-user:User335@e-commerce-cluster.s0su0.mongodb.net/?retryWrites=true&w=majority&appName=e-commerce-cluster'
   )
